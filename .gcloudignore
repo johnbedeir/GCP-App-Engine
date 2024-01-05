@@ -24,7 +24,6 @@
 
 .git
 .gitignore
-Dockerfile
 .history
 venv
 
@@ -35,3 +34,5 @@ venv
 # Ignored by the build system
 
 /setup.cfg
+*.png
+*.md

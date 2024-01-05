@@ -61,6 +61,16 @@ This guide will walk you through the steps to deploy a Flask application, like t
    gcloud app browse
    ```
 
+### Delete the App Engine Service
+
+Once a default app is deployed to GCP App Engine, you can't delete it. You can turn it off and deploy an app with no code, but you can't delete it, if you deployed an empty version you can go ahead and delete the older version.
+
+### Disable the Service
+
+Navigate to `App Engine` from the console, go to `Settings` then `Disable Application`.
+
+<img src=app-engine.png>
+
 ## Additional Information
 
 - Make sure you are in the correct directory where your `main.py` and `app.yaml` files are located before running the deployment commands.
