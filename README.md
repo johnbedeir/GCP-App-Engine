@@ -35,6 +35,8 @@ This guide will walk you through the steps to deploy a Flask application, like t
 
    ```
    gcloud auth login
+
+   gcloud init
    ```
 
 7. **Set Project ID:**
